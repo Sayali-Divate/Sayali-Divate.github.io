@@ -62,4 +62,10 @@ project_details.forEach(project=>{
 
     Maindiv.append(pictureDiv,descriptionDiv);
     Projects_Div.append(Maindiv);
-})
+});
+
+// let home=document.getElementById("home");
+// home.scrollIntoView();
+
+// let about =document.getElementById("about_me");
+// about.scrollIntoView({behavior: "smooth"})

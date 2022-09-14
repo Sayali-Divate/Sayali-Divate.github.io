@@ -274,7 +274,14 @@
         width: 40%;              
         gap: 10px;          
         font-weight: 600;        
-    }  
+    } 
+    #name_image > div{    
+        width: 15%;
+        /* height: 10%; */
+        display: flex;
+        justify-content:flex-end;
+        /* border: 1px solid black; */
+    } 
     #tabs{
         width: 50%;        
         font-weight: 600;
@@ -311,11 +318,20 @@
     #description_skills>div:nth-child(2)>p:first-child{
         font-size: 17px;    
     }
+    #description_skills>div:first-child>p:nth-child(2),
+    #description_skills>div:first-child>p:nth-child(3),
+    #skills>div{
+        font-size: 15px;
+    }
     .main{       
         display: flex;
         flex-direction: column;        
         margin: 30px;
-    }      
+    } 
+    .picture{
+        width: 70%;
+        margin: auto;
+    }     
     .project_description>div:first-child{
         text-align: center;        
     }
@@ -329,6 +345,9 @@
         justify-content: space-evenly;           
     }
     .project_description>div:nth-child(3)>button{        
-        font-size: 16px;        
+        font-size: 15px;        
     }
+}
+html{
+    scroll-behavior: smooth;
 }
