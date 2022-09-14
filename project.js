@@ -64,8 +64,3 @@ project_details.forEach(project=>{
     Projects_Div.append(Maindiv);
 });
 
-// let home=document.getElementById("home");
-// home.scrollIntoView();
-
-// let about =document.getElementById("about_me");
-// about.scrollIntoView({behavior: "smooth"})
