@@ -96,20 +96,14 @@
     line-height: 30px;
 }
 #resume_redirect{
-    width: 20%;
+    width: fit-content;
     text-align: center;
-    padding: 15px;
+    padding: 15px 30px;
     font-size: 21px;
     border-radius: 7px;
     border: none;
     background-color: 
     #facf0f;
-}
-#brief a{
-    text-decoration: none;
-    color: black;
-    letter-spacing: 1px;
-    font-weight: 600;
 }
 #brief>div>img{
     width: 10%;
@@ -130,7 +124,7 @@
 }
 .line{
     width: 5%;
-    margin: 5px;
+    margin: 5px auto;
     height: 5px;
     background-color: #facf0f;
     border-radius: 2px;
@@ -138,7 +132,7 @@
 .about_the_section{
     width: 60%;
     font-size: 20px;
-    margin: 20px 0 60px;    
+    margin: 20px auto 60px;    
     text-align: center;
 }
 #description_skills{
@@ -270,6 +264,39 @@
     font-size: 17px;
     font-weight: 600;
     border-radius: 10px;
+}
+#contact{    
+    width: 100%;
+    text-align: center;
+}
+#block{
+   width: 100%;
+   display: flex;  
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   background-color: black;
+   padding: 50px;
+}
+#block>div{
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid;
+
+}
+#block>div>a{
+    color: black;
+}
+#block>div>a>div,
+#block>div>div{
+    background-color: #facf0f;
+    margin:auto;
+    /* width: 100%; */
+    padding: 10px;
+    border-radius: 5px;
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px){

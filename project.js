@@ -64,3 +64,19 @@ project_details.forEach(project=>{
     Projects_Div.append(Maindiv);
 });
 
+const span = document.querySelector("#span");
+
+span.onclick = function() {
+  document.execCommand("copy");
+}
+
+span.addEventListener("copy", function(event) {
+  event.preventDefault();
+  if (event.clipboardData) {
+    event.clipboardData.setData("text/plain", "+91 8999196924");
+    console.log(event.clipboardData.getData("text"))
+  }
+
+  alert("Number copied to clipboard");
+});
+
