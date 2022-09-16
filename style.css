@@ -483,12 +483,13 @@
         font-size: 13px;    
     }
     .project_description>div:nth-child(3){
-        width: 40%;        
+        width: 30%;        
         margin: auto;
         justify-content: space-evenly;           
     }
     .project_description>div:nth-child(3)>button{        
-        font-size: 15px;        
+        font-size: 12px;     
+        padding: 5px 15px;   
     }
     
 }
