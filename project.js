@@ -4,7 +4,7 @@ let project_details = [
     "tech_stack":"HTML, CSS, JavaScript, github",
     "data_base": "Json server",
     "banner":"https://drive.google.com/uc?export=view&id=1CI0jNP5IlvWxT_hcPYVN_Poy0XQJthx_",
-    "deployed": "",
+    "deployed": "https://expedia-clone-developer.herokuapp.com/",
     "gitlink": "https://github.com/Sayali-Divate/ideal-loss-5580"},
 
     {"project_name": "Expedia.com Clone",
