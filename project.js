@@ -1,6 +1,6 @@
 let project_details = [
     {"project_name": "Expedia.com Clone",
-     "details": "The project was a collaborative project done by 6 people including me in 5 days. My task was to build the Hotels list page and provide different functionalities like sorting and filtering.",
+     "details": "The project was a collaborative project done by 6 people altogether within 5 days. My task was to build the Hotels list page and provide different functionalities like sorting and filtering.",
     "tech_stack":"HTML, CSS, JavaScript, github",
     "data_base": "Json server",
     "banner":"https://drive.google.com/uc?export=view&id=1CI0jNP5IlvWxT_hcPYVN_Poy0XQJthx_",
@@ -8,7 +8,7 @@ let project_details = [
     "gitlink": "https://github.com/Sayali-Divate/ideal-loss-5580"},
 
     {"project_name": "Expedia.com Clone",
-     "details": "A collaborative project completed in 5 days with 4 other colleagues. I've built the Hotel page which includes booking hotel functionality",
+     "details": "A collaborative project completed within 5 days with 4 other colleagues. I've built the Hotel page which includes hotel booking functionality",
     "tech_stack":"HTML, CSS, JavaScript, github",
     "data_base": "local storage",
     "banner":"https://drive.google.com/uc?export=view&id=1CI0jNP5IlvWxT_hcPYVN_Poy0XQJthx_",
@@ -77,6 +77,6 @@ span.addEventListener("copy", function(event) {
     console.log(event.clipboardData.getData("text"))
   }
 
-  alert("Number copied to clipboard");
+  alert("Contact number copied to clipboard");
 });
 
