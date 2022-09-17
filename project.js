@@ -87,6 +87,10 @@ contentDiv.forEach(ele=>{
   }
 });
 
+document.onscroll=()=>{
+  closedFun();
+}
+
 let closedFun=()=>{
   content.style.display="none";
   bars.style.display="flex";
