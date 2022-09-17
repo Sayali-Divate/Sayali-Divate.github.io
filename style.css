@@ -518,7 +518,8 @@
     #name_tag{    
         width: 90%;   
         font-size: 30px;
-        font-weight:900;        
+        font-weight:900;  
+        line-height: 50px;      
     }
     #brief>div>{
         gap: 20px;
