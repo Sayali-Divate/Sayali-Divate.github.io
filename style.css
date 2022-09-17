@@ -68,10 +68,13 @@
     justify-content: space-around;
     align-items: center;    
 }
-#brief>img{
+#landscape{
     width: 100%;
     height: 90vh;  
     opacity: 0.5;  
+}
+#portrait{
+    display: none;
 }
 #brief>div{
     position: absolute;
@@ -360,7 +363,7 @@
         width: 50%;        
         font-weight: 600;
     }    
-    #brief>img{        
+    #landscape{        
         height: 80vh;    
     }    
     #name_tag{       
@@ -504,8 +507,14 @@
     #content>a:hover{
         color: #facf0f;
     }
-    #brief>img{        
-        height: 90vh;    
+    #landscape{
+        display: none;
+    }
+    #portrait{ 
+        display: flex;   
+        width: 100%;    
+        height: 90vh;   
+        opacity: 0.5; 
     }    
     #name_tag{    
         width: 90%;   
@@ -515,7 +524,7 @@
     #brief>div>{
         gap: 20px;
     }
-    #brief>div>div:nth-child(3){
+    #brief>div:first-child>div:nth-child(3){
         width: 90%;
     }
     #brief_detail{
