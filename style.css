@@ -509,12 +509,20 @@
     }
     #content a:hover{
         color: #facf0f;        
-    }   
+    } 
+    /* #brief{
+        width: 100%;
+        
+    }   */
     #landscape{          
-        width: 100%;    
-        /* height: 80vh;    */
-        transform:rotate();
-    }    
+        display: none;
+    }  
+    #portrait{
+        display: block;
+        width: 100%;
+        height: 90vh;  
+        opacity: 0.4; 
+    }  
     #name_tag{    
         width: 90%;   
         font-size: 30px;
