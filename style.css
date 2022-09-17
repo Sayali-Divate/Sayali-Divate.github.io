@@ -477,7 +477,8 @@
         z-index: 1;       
     }
     #tabs>div:last-child>i{
-        margin-right: 10px;        
+        margin-right: 10px; 
+        font-weight: 00;       
     }
     #cross{
         display: none;
@@ -490,7 +491,8 @@
         display: none; 
         flex-direction: column;
         text-align: right;         
-        font-size: 11px;
+        font-size: 12px;
+        font-weight: 600;
         gap: 10px;
         background-color: white;
         right: 0;
@@ -499,7 +501,7 @@
     #content>a{
         text-decoration: none;
         color: black;
-        padding: 5px 10px;
+        padding: 10px;
     }
     #content>a:hover{
         color: #facf0f;
