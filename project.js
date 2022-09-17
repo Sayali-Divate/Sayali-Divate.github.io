@@ -71,9 +71,9 @@ let content=document.getElementById("content");
 let bars = document.querySelector("#bar");
 let cross = document.getElementById("cross");
 bars.onclick=()=>{
-  content.style.display="flex";
+  content.style.display="flex";  
   cross.style.display="flex";
-  bars.style.display="none";
+  bars.style.display="none";  
 }
 
 cross.onclick=()=>{
