@@ -48,9 +48,11 @@ project_details.forEach(project=>{
     let buttonsDiv = document.createElement("div");
     let deployedBtn = document.createElement("button");
     deployedBtn.innerText = "Deployed";
+
     deployedBtn.onclick=()=>{
         window.open(project.deployed, "_blank");
     }
+
     let gitBtn = document.createElement("button");
     gitBtn.innerText = "GitHub";
     gitBtn.onclick=()=>{
@@ -64,19 +66,29 @@ project_details.forEach(project=>{
     Projects_Div.append(Maindiv);
 });
 
-const span = document.querySelector("#span");
 
-span.onclick = function() {
-  document.execCommand("copy");
+let content=document.getElementById("content");
+let bars = document.querySelector("#bar");
+let cross = document.getElementById("cross");
+bars.onclick=()=>{
+  content.style.display="flex";
+  cross.style.display="flex";
+  bars.style.display="none";
 }
 
-span.addEventListener("copy", function(event) {
-  event.preventDefault();
-  if (event.clipboardData) {
-    event.clipboardData.setData("text/plain", "+91 8999196924");
-    console.log(event.clipboardData.getData("text"))
-  }
+cross.onclick=()=>{
+  closedFun();
+}
 
-  alert("Contact number copied to clipboard");
+let contentDiv = document.querySelectorAll("#content>a");
+contentDiv.forEach(ele=>{
+    ele.onclick=()=>{
+      closedFun();
+  }
 });
 
+let closedFun=()=>{
+  content.style.display="none";
+  bars.style.display="flex";
+  cross.style.display="none";
+}
