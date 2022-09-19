@@ -66,12 +66,14 @@ project_details.forEach(project=>{
     Projects_Div.append(Maindiv);
 });
 
+// Mobile view tabs.........
+
 
 let content=document.getElementById("content");
 let bars = document.querySelector("#bar");
 let cross = document.getElementById("cross");
 bars.onclick=()=>{
-  content.style.display="flex";  
+  content.style.display="flex";    
   cross.style.display="flex";
   bars.style.display="none";  
 }
@@ -96,3 +98,15 @@ let closedFun=()=>{
   bars.style.display="flex";
   cross.style.display="none";
 }
+
+GitHubCalendar(".calendar", "Sayali-Divate");
+
+    // or enable responsive functionality:
+GitHubCalendar(".calendar", "Sayali-Divate", { responsive: true });
+
+    // Use a proxy
+GitHubCalendar(".calendar", "your-username", {
+    proxy (username) {
+      return fetch(`https://your-proxy.com/github?user=${username}`)
+    }
+}).then(r => r.text())

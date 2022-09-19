@@ -148,7 +148,8 @@
 }
 .tags{
     font-size: 40px;
-    margin: 100px 0px 0px;
+    margin: 100px auto 0px;
+    text-align: center;
 }
 .line{
     width: 5%;
