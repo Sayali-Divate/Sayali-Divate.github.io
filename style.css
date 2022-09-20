@@ -453,7 +453,7 @@
     }
 }
 
-@media all and (min-width: 0px) and (max-width: 767px){
+@media all and (min-width: 0px) and (max-width: 599px){
     hr{
         border: 0.2px solid rgb(234, 233, 233) ;
     }
