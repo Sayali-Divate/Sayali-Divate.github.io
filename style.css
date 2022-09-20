@@ -55,7 +55,8 @@
     text-decoration: none;
     color: black;
 }
-#dropdown{
+#dropdown,
+#content{
     display: none;
 }
 #brief{
