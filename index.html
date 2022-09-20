@@ -119,13 +119,20 @@
             </div>
         </div>        
     </div>
-    <div id="github_Calender">
+    <div id="github_Calender">        
         <p class="tags">GITHUB CONTRIBUTION CALENDER</p>
         <div class="line"></div>
         <div class="about_the_section">Here find my github contribution over last months</div>
-        <div class="calender">
-            <!-- github calender stuff -->            
+        <script  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>        
+        <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+        <div class="calendar" style="width:80%; margin:auto">    
+            <!-- Loading calender -->
         </div>
+        <script>
+            GitHubCalendar(".calendar", "Sayali-Divate");
+            // or enable responsive functionality
+            GitHubCalendar(".calendar", "Sayali-Divate", { responsive: true });
+        </script>
     </div>
     <div id="project">
         <p class="tags">PROJECTS</p>
@@ -176,9 +183,37 @@
             </div>            
         </div>
     </div>
+    
+<!-- <script
+src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+
+ Optionally, include the theme (if you don't want to struggle to write the CSS) ---->
+<!-- <link
+rel="stylesheet"
+href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/> --> 
+
+
+
+<!-- <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+    <h2 style="text-align:center ;">My Github Calander</h2>
+    <div style="width:70%;margin:auto;" class="calendar">
+
+
+    </div>
+
+    <script>
+        GitHubCalendar(".calendar", "Sayali-Divate");
+
+        GitHubCalendar(".calendar", "Sayali-Divate", { responsive: true });
+    </script> -->
+
 </body>
 <script src="project.js"></script>
-<script
-  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
-</script>
 </html>
+
+
