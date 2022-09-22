@@ -104,6 +104,7 @@
     border: none;
     background-color: 
     #facf0f;
+    cursor: pointer;
 }
 #brief>div>img{
     width: 10%;
