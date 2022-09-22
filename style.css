@@ -10,7 +10,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
-    background-color: rgb(246, 246, 246);    
+    background-color: #fbfbfc;    
     width:100%;
     padding: 10px 5%;
     display: flex;
@@ -344,6 +344,26 @@
 }
 #block1{
     display: none;
+}
+#footerInfo{
+    /* border: 2px solid red; */
+    background-color: black;
+}
+#footerInfo>p{
+    margin: 0 auto 7px;
+    font-size: 16px;
+    font-weight: 700;
+}
+#footerInfo>div{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+#footerInfo>div>p{
+    font-size: 14px;
+}
+#footerInfo p{
+    color: white;
 }
 
 @media all and (min-width: 600px) and (max-width: 1024px){
