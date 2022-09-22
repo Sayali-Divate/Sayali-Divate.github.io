@@ -351,16 +351,16 @@
 }
 #footerInfo>p{
     margin: 0 auto 7px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
 }
 #footerInfo>div{
-    width: 80%;
+    width: 60%;
     margin: auto;
     padding-bottom: 40px;
 }
 #footerInfo>div>p{
-    font-size: 14px;
+    font-size: 12px;
 }
 #footerInfo p{
     color: white;
@@ -672,6 +672,12 @@
         border-radius: 5px;
         cursor: pointer;
     } 
+    #footerInfo>p{        
+        font-size: 12px;        
+    }   
+    #footerInfo>div>p{
+        font-size: 8px;
+    }
    
 }
 
