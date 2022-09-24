@@ -1,3 +1,66 @@
+
+let tech_stacks=[
+  {
+    "teck_name": "Java",
+    "img_link":"https://drive.google.com/uc?export=view&id=10aHD66mjf5805u4IG0sHjmUBoHSSrtrZ"
+  },
+  {
+    "teck_name": "SpringBoot",
+    "img_link":"https://drive.google.com/uc?export=view&id=1c6meiP7Ay12p9HfWI6Dbpp1zb1XVUDn6"
+  },
+  {
+    "teck_name": "JDBC",
+    "img_link":"https://drive.google.com/uc?export=view&id=10aHD66mjf5805u4IG0sHjmUBoHSSrtrZ"
+  },
+  {
+    "teck_name": "MySQL",
+    "img_link":"https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png"
+  },
+  {
+    "teck_name": "Hibernate",
+    "img_link":"https://cdn.freebiesupply.com/logos/large/2x/hibernate-logo-png-transparent.png"
+  },
+  {
+    "teck_name": "JavaScript",
+    "img_link":"https://drive.google.com/uc?export=view&id=1PAdZ31CeY83OFFT-MSACi9bOT6DUfFnY"
+  },
+  {
+    "teck_name": "CSS",
+    "img_link":"https://drive.google.com/uc?export=view&id=1csttg5pfFGGt7yE4A1YC2VxNpOPg43DG"
+  },
+  {
+    "teck_name": "HTML",
+    "img_link":"https://drive.google.com/uc?export=view&id=1OM8fgg4s361EblZU6k4i4DdUQ3sZxUDC"
+  },
+  {
+    "teck_name": "GitHub",
+    "img_link":"https://cdn-icons-png.flaticon.com/512/25/25231.png"
+  },
+  {
+    "teck_name": "VS code",
+    "img_link":"https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png"
+  }    
+
+]
+
+let techStackDiv = document.getElementById("tech");
+
+tech_stacks.forEach(tech=>{
+
+
+  let comp = document.createElement("div");
+
+  let img = document.createElement("img");
+  img.src = tech.img_link;
+  img.alt= tech.teck_name;
+  let name = document.createElement("p");
+  name.innerText=tech.teck_name;
+
+  comp.append(img,name);
+
+  techStackDiv.append(comp);  
+})
+
 let project_details = [
     {"project_name": "Expedia.com Clone",
      "details": "The project was a collaborative project done by 6 people altogether within 5 days. My task was to build the Hotels list page and provide different functionalities like sorting and filtering.",
@@ -99,9 +162,9 @@ let closedFun=()=>{
   cross.style.display="none";
 }
 
-GitHubCalendar(".calendar", "Sayali-Divate");
+// GitHubCalendar(".calendar", "Sayali-Divate");
 
-    // or enable responsive functionality:
-GitHubCalendar(".calendar", "Sayali-Divate", { responsive: true });
+//     // or enable responsive functionality:
+// GitHubCalendar(".calendar", "Sayali-Divate", { responsive: true });
 
   
