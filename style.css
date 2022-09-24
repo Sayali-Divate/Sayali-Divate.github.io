@@ -202,7 +202,7 @@
 }
 #tech{
     width: 80%;
-    margin: 40px auto;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 60px 40px;
@@ -609,15 +609,15 @@
     }
     #tech{
         grid-template-columns: repeat(3, 1fr);
-        gap: 30px 50px ;
-        margin: 30px auto 0;
+        gap: 30px 0px ;
+        margin: auto;
         /* border: 1px solid; */
     }   
     #tech>div>p{
-        font-size: 14px;
+        font-size: 12px;
     }
     #tech>div>img{
-        width:70%;           
+        width:80%;           
     }
     .main{       
         display: flex;
