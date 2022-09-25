@@ -223,6 +223,23 @@
     width:70%;
     height: 100%;    
 }
+#stats{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px ;
+    padding: 10px;
+}
+#stats>div{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #projects_div{
     width: 80%;
     display: flex;
@@ -524,12 +541,12 @@
         position: fixed;
         z-index: 1;         
         display: none; 
-        width: 100%;
+        width: 100%;        
         flex-direction: column;
         text-align: right;         
         font-size: 12px;
         font-weight: 600;
-        gap: 10px;
+        gap: 20px;
         background-color: rgb(255, 252, 252);
         right: 0;
         box-shadow: #facf0f(17, 12, 46, 0.15) ;             
