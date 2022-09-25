@@ -14,7 +14,7 @@ let tech_stacks=[
   },
   {
     "teck_name": "MySQL",
-    "img_link":"https://assets.stickpng.com/thumbs/5848104fcef1014c0b5e4950.png"
+    "img_link":"https://assets.stickpng.com/images/5848104fcef1014c0b5e4950.png"
   },
   {
     "teck_name": "Hibernate",
