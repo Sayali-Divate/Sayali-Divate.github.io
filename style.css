@@ -232,13 +232,25 @@
     padding: 10px;
 }
 #stats>div{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 100%;
-    border: 2px solid black;
+    border: 2px solid #facf0f;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    background-color: ;    
+    color: ;
+}
+#stats>div>p:first-child{
+    font-size: 20px;
+    font-weight: 700;
+}
+#stats>div>p:nth-child(2){
+    font-size: 14px;
+
 }
 #projects_div{
     width: 80%;
