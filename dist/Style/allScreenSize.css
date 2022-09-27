@@ -58,6 +58,9 @@
 #content{
     display: none;
 }
+.sections{
+    padding: 70px 0;
+}
 #brief{
     position: relative;
     display: flex;
@@ -138,6 +141,10 @@
 #contact_details>div>div>a{
     color: black;    
 }
+#about_me{
+    background-color: 
+    #fbfbfc;
+}
 #about_me,
 #tech_stack,
 #project{
@@ -149,7 +156,7 @@
 }
 .tags{
     font-size: 40px;
-    margin: 100px auto 0px;
+    margin: auto;
     text-align: center;
 }
 .line{
@@ -333,6 +340,7 @@
 #contact{    
     width: 100%;
     text-align: center;
+    padding-bottom: 0git;
 }
 #block{
    width: 100%;
