@@ -133,6 +133,23 @@
     #tech>div>img{
         width:80%;           
     }
+    #stats{
+        width: 90%;       
+        gap: 10px ;        
+    }
+    #stats>div{
+        width: 150px;
+        height: 100px;      
+        text-align: center;       
+        gap:5px;
+        padding: 2px;
+    }
+    #stats>div>p:first-child{
+        font-size: 15px;        
+    }
+    #stats>div>p:nth-child(2){
+        font-size: 12px;    
+    }
     .main{       
         display: flex;
         flex-direction: column;        
