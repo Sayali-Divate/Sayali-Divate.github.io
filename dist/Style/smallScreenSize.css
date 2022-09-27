@@ -30,7 +30,7 @@
     #tabs>div:last-child>i{
         margin-right: 10px; 
         font-weight: 00;       
-    }      
+    } 
     #cross{
         display: none;
     }   
@@ -98,10 +98,18 @@
     #contact_details>div{
         display: none;   
         opacity: 0;
-    }  
+    } 
+    .section{
+        padding: 40px 0;
+    }   
+    #about_me{
+        background-color: 
+        #fbfbfc;
+        padding-top: 60px;
+    }
     .tags{
         font-size: 20px;
-        margin: 50px 0px 0px;
+        margin: auto;
     }    
     .about_the_section{       
         font-size: 14px;
