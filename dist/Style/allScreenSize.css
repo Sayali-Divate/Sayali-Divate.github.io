@@ -65,7 +65,8 @@
     position: relative;
     display: flex;
     justify-content: space-around;
-    align-items: center;    
+    align-items: center; 
+    
 }
 #landscape{
     width: 100%;
@@ -144,6 +145,7 @@
 #about_me{
     background-color: 
     #fbfbfc;
+    padding-top: 120px;
 }
 #about_me,
 #tech_stack,
@@ -340,7 +342,7 @@
 #contact{    
     width: 100%;
     text-align: center;
-    padding-bottom: 0git;
+    padding-bottom: 0;
 }
 #block{
    width: 100%;

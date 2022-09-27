@@ -35,10 +35,12 @@
     #brief>div>img{
         width: 10%;
         border-radius: 100%;
-    }    
+    } 
+    .sections{
+        padding: 60px 0;
+    }   
     .tags{
-        font-size: 30px;
-        margin: 80px 0px 0px;
+        font-size: 30px;       
     }    
     .about_the_section{       
         font-size: 17px;       
@@ -61,6 +63,7 @@
         background-color: rgb(179, 178, 178);
         opacity: 0.8; 
         border-radius: 0 10px 10px 0;
+        margin-bottom: 0px;
     }
     #contact_details>div{
         width: 100%;
