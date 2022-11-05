@@ -65,8 +65,7 @@
     position: relative;
     display: flex;
     justify-content: space-around;
-    align-items: center; 
-    
+    align-items: center;     
 }
 #landscape{
     width: 100%;
