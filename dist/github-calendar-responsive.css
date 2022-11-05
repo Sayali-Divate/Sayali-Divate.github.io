@@ -82,7 +82,7 @@
   }
   
   .contrib-column {
-      padding: 15px 0;
+      padding: 10px 0;
       text-align: center;
       border-left: 1px solid #ddd;
       border-top: 1px solid #ddd;
@@ -94,7 +94,7 @@
   }
   
   .table-column {
-      display: table-cell;
+      display: none;
       width: 1fr;
       padding:5px;
       vertical-align: top;
@@ -112,9 +112,9 @@
   }
   
   .calendar img.spinner {
-      /* width: 70px; */
-      /* margin-top: 50px; */
-      /* min-height: 70px; */
+      /* width: 70px;
+      margin-top: 50px;
+      min-height: 70px; */
   }
   
   .monospace {
@@ -195,6 +195,7 @@
   }
   
   text.ContributionCalendar-label {
+    display: none;
       fill: #ccc;
       font-size: 11px;
   }

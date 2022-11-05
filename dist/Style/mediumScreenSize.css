@@ -91,6 +91,9 @@
     #description_skills>div:first-child>p:nth-child(3),
     #skills>div{
         font-size: 15px;
+    }    
+    .git-stats>img{
+        width: 47%;
     }
     .main{       
         display: flex;
