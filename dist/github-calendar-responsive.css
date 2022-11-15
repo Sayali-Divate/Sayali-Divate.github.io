@@ -40,12 +40,12 @@
       max-height: fit-content;
       text-align: center;
       /* margin: 0 auto;     */
-      font-size: 13px;
+      font-size: 7px;
   }
   
   .calendar-graph text.wday,
-  .calendar-graph text.month {
-      font-size: 10px;
+  .calendar-graph text.month {    
+      font-size: 5px;
       fill: #aaa;
   }
   

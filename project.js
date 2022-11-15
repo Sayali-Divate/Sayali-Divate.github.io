@@ -62,11 +62,19 @@ tech_stacks.forEach(tech=>{
 })
 
 let project_details = [
+    {"project_name": "Wallet Payment Application (EZWallet)",
+    "details": "The RESTful API services project developed by 5 developers within 5 days. I've worked on Entity Relational Mapping and Wallet Services.",
+    "tech_stack":"Java-8, Spring-Boot, Hibernate, Lambok, github",
+    "data_base": "MySQL",
+    "banner":"Images/ezswagger.png",
+    "deployed": "https://drive.google.com/file/d/1Hot0zH2ip90KIOYVfhbGsHgagxDMaOkD/view?usp=sharing",
+    "gitlink": "https://github.com/Sayali-Divate/Wallet-Payment-System-EZWallet"},
+
     {"project_name": "Expedia.com Clone",
      "details": "The project was a collaborative project done by 6 people altogether within 5 days. My task was to build the Hotels list page and provide different functionalities like sorting and filtering.",
     "tech_stack":"HTML, CSS, JavaScript, github",
     "data_base": "Json server",
-    "banner":"https://drive.google.com/uc?export=view&id=1CI0jNP5IlvWxT_hcPYVN_Poy0XQJthx_",
+    "banner":"Images/expedia.png",
     "deployed": "https://expedia-clone-developer.herokuapp.com/",
     "gitlink": "https://github.com/Sayali-Divate/ideal-loss-5580"},
 
@@ -74,7 +82,7 @@ let project_details = [
      "details": "A collaborative project completed within 5 days with 4 other colleagues. I've built the Hotel page which includes hotel booking functionality",
     "tech_stack":"HTML, CSS, JavaScript, github",
     "data_base": "local storage",
-    "banner":"https://drive.google.com/uc?export=view&id=1CI0jNP5IlvWxT_hcPYVN_Poy0XQJthx_",
+    "banner":"Images/Ideal-loss.png",
     "deployed": "https://adorable-fairy-910347.netlify.app/",
     "gitlink": "https://github.com/sukhendu32/constructProject1"},
 ];
@@ -110,7 +118,7 @@ project_details.forEach(project=>{
     projectDetails.innerHTML =`<p>${project.details}</p><p>Tech Stack : ${project.tech_stack}</p><p>Database : ${project.data_base}</p>`;
     let buttonsDiv = document.createElement("div");
     let deployedBtn = document.createElement("button");
-    deployedBtn.innerText = "Deployed";
+    deployedBtn.innerText = "Live";
 
     deployedBtn.onclick=()=>{
         window.open(project.deployed, "_blank");
